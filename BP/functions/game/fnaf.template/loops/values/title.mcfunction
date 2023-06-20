@@ -1,0 +1,1 @@
+execute unless entity @a[tag=camera] run titleraw @a actionbar {"rawtext":[{"text":"§eTime§f: "},{"score":{"objective":"values","name":"time"}},{"text":"AM\n§aPower§f: "},{"score":{"objective":"values","name":"power"}},{"text":"%\nUsage: "},{"score":{"objective":"values","name":"usage"}}]} 

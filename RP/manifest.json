@@ -1,0 +1,23 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "FNAF Engine",
+        "description": "FNAF Game engine resources",
+        "uuid": "bf25cb9c-5fff-46ce-9bf3-8eb747baa019",
+        "min_engine_version": [ 1, 19, 80 ],
+        "version": [ 1, 0, 0 ]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "9141126f-f15f-469c-9d33-3f8cdb8741ab",
+            "version": [ 1, 0, 0 ]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "ec7efee2-cf38-4bcd-b8a2-134315af8806",
+            "version": [ 1, 0, 0 ]
+        }
+    ]
+}

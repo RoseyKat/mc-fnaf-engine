@@ -1,0 +1,6 @@
+{
+    "values": [
+        "lobby/await",
+        "game/loop_controller"
+    ]
+}

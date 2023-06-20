@@ -1,0 +1,18 @@
+tile.fnaf:stonebrick_pattern.name=Stonebrick (patterned)
+tile.fnaf:camera_block.name=Camera
+tile.fnaf:tiled_floor.name=Tiled Floor
+tile.fnaf:black.name=Black Block
+tile.fnaf:lobby_chest.name=Lobby Chest
+tile.fnaf:map_origin.name=Map Origin
+tile.fnaf:ceiling_light.name=Ceiling Light
+tile.fnaf:door_button.name=Door Button
+tile.fnaf:light_button.name=Light Button
+tile.fnaf:door_setter.name=Door Setter
+tile.fnaf:door_base.name=Metal Door
+tile.fnaf:door_bottom.name=Metal Door
+
+item.fnaf:start=Start Game
+
+item.fnaf:icon_template=Template Animatronic
+item.fnaf:template_up=Increase
+item.fnaf:template_down=Decrease

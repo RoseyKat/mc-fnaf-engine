@@ -1,0 +1,15 @@
+{
+    "format_version":"1.19.50",
+    "fnaf:stonebrick_pattern": { "sound": "stone", "textures": "stonebrick_pattern"},
+    "fnaf:camera": {"sound": "stone"},
+    "fnaf:tiled_floor": {"sound": "stone", "textures": "tiled_floor"},
+    "fnaf:door_base": {"sound": "stone", "textures": "door.base"},
+    "fnaf:door_bottom": {"sound": "stone", "textures": "door.bottom"},
+    "fnaf:black": {"sound": "stone", "textures": "black"},
+    "fnaf:lobby_chest": {"sound": "stone", "textures": "black"},
+    "fnaf:map_origin": {"sound": "stone", "textures": "black"},
+    "fnaf:ceiling_light": {"sound": "glass"},
+    "fnaf:door_button": {"sound": "stone"},
+    "fnaf:light_button": {"sound": "stone"},
+    "fnaf:door_setter": {"sound": "stone"}
+}

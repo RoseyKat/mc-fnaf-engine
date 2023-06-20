@@ -1,0 +1,53 @@
+{
+    "format_version": "1.19.50",
+    "minecraft:block": {
+        "description": {
+            "identifier": "fnaf:ceiling_light",
+            "menu_category": {
+                "category": "items"
+            },
+            "properties": {"fnaf:rotation": [2,3,4,5]}
+        },
+        "components": {
+            "minecraft:geometry": {"identifier": "geometry.ceiling_light"},
+            "minecraft:selection_box": {
+                "origin": [-3, 14, -8],
+                "size": [6, 2, 16]
+            },
+            "minecraft:collision_box": false,
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "ceiling_light",
+                    "render_method": "alpha_test",
+                    "ambient_occlusion": false
+                }
+            },
+            "minecraft:light_emission": 8,
+            "minecraft:rotation": [0,0,0],
+            "minecraft:on_player_placing": {"event": "fnaf:update_rotation"}
+        },
+        "permutations": [
+            {
+                "condition": "q.block_property('fnaf:rotation') == 2",
+                "components": {"minecraft:rotation": [0,0,0]}
+            },
+            {
+                "condition": "q.block_property('fnaf:rotation') == 3",
+                "components": {"minecraft:rotation": [0,180,0]}
+            },
+            {
+                "condition": "q.block_property('fnaf:rotation') == 4",
+                "components": {"minecraft:rotation": [0,90,0]}
+            },
+            {
+                "condition": "q.block_property('fnaf:rotation') == 5",
+                "components": {"minecraft:rotation": [0,270,0]}
+            }
+        ],
+        "events": {
+            "fnaf:update_rotation": {
+                "set_block_property": {"fnaf:rotation": "q.cardinal_facing_2d"}
+            }
+        }
+    }
+}

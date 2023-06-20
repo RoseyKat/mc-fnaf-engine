@@ -1,0 +1,46 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:fog_settings": {
+        "description": {
+            "identifier": "fnaf:guard_fog"
+        },
+        "distance": {
+            "air": {
+                "fog_start": 3,
+                "fog_end": 7,
+                "fog_color": "#1e1e1e",
+                "render_distance_type": "fixed"
+            },
+            "weather": {
+                "fog_start": 3,
+                "fog_end": 7,
+                "fog_color": "#1e1e1e",
+                "render_distance_type": "fixed"
+            },
+            "water": {
+                "fog_start": 3,
+                "fog_end": 7,
+                "fog_color": "#1e1e1e",
+                "render_distance_type": "fixed"
+            },
+            "lava": {
+                "fog_start": 3,
+                "fog_end": 7,
+                "fog_color": "#1e1e1e",
+                "render_distance_type": "fixed"
+            },
+            "lava_resistance": {
+                "fog_start": 3,
+                "fog_end": 7,
+                "fog_color": "#1e1e1e",
+                "render_distance_type": "fixed"
+            },
+            "powder_snow": {
+                "fog_start": 3,
+                "fog_end": 7,
+                "fog_color": "#1e1e1e",
+                "render_distance_type": "fixed"
+            }
+        }
+    }
+}

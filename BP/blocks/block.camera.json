@@ -1,0 +1,46 @@
+{
+    "format_version": "1.19.50",
+    "minecraft:block": {
+        "description": {
+            "identifier": "fnaf:camera_block",
+            "menu_category": {
+                "category": "construction"
+            },
+            "properties": {"fnaf:rotation":[2,3,4,5]}
+        },
+        "components": {
+            "minecraft:geometry":{"identifier": "geometry.camera"},
+            "minecraft:material_instances":{
+                "*": { "texture": "camera", "render_method": "alpha_test" }
+            },
+            "minecraft:selection_box": {
+                "origin": [-2, 7, -7],
+                "size": [4, 9, 12]
+            },
+            "minecraft:collision_box": false,
+            "minecraft:rotation": [0,0,0],
+            "minecraft:on_player_placing": {"event": "fnaf:update_rotation"}
+        },
+        "permutations": [
+            {
+                "condition": "query.block_property('fnaf:rotation') == 2",
+                "components": {"minecraft:rotation": [0,0,0]}
+            },
+            {
+                "condition": "query.block_property('fnaf:rotation') == 3",
+                "components": {"minecraft:rotation": [0,180,0]}
+            },
+            {
+                "condition": "query.block_property('fnaf:rotation') == 4",
+                "components": {"minecraft:rotation": [0,90,0]}
+            },
+            {
+                "condition": "query.block_property('fnaf:rotation') == 5",
+                "components": {"minecraft:rotation": [0,270,0]}
+            }
+        ],
+        "events": {
+            "fnaf:update_rotation": {"set_block_property":{"fnaf:rotation":"query.cardinal_facing_2d"}}
+        }
+    }
+}

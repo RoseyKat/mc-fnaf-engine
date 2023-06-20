@@ -1,0 +1,21 @@
+{
+    "resource_pack_name": "fnaf",
+    "texture_data": {
+        // v CAMERA STUFF v
+        "camera.off": {"textures": "textures/items/camera/camera_off" },
+        "camera.on": {"textures": "textures/items/camera/camera_on" },
+        "camera.next": {"textures": "textures/items/camera/camera_next" },
+        "camera.prev": {"textures": "textures/items/camera/camera_prev" },
+        // ^ CAMERA STUFF ^
+
+        // v ANIMATRONIC ICONS v
+        "anim.icon.template": {"textures": "textures/items/lobby/animatronic_icons/template" },
+        // ^ ANIMATRONIC ICONS ^
+
+        // v LOBBY ICONS v
+        "lobby.start": {"textures": "textures/items/lobby/start" },
+        "lobby.down": {"textures": "textures/items/lobby/down" },
+        "lobby.up": {"textures": "textures/items/lobby/up" }
+        // ^ LOBBY ICONS ^
+    }
+}

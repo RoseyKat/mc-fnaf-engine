@@ -1,0 +1,48 @@
+{
+    "format_version": "1.19.50",
+    "sound_definitions": {
+        "click": {"category": "ui", "sounds": ["sounds/random/click"]},
+        "ambience.fnaf3": {
+            "category": "music",
+            "sounds": [
+                {
+                    "name": "sounds/ambience/fnaf3",
+                    "stream": true,
+                    "volume": 0.5
+                }
+            ]
+        },
+        "door.shut": {
+            "category": "ui",
+            "sounds": ["sounds/doors/shut"]
+        },
+        "door.block": {
+            "category": "ui",
+            "sounds": ["sounds/doors/door_block"]
+        },
+        "light.buzz": {
+            "category": "ui",
+            "sounds": ["sounds/doors/light_buzz"]
+        },
+        "anim.jumpscare": {
+            "category": "ui",
+            "sounds": ["sounds/jumpscare"]
+        },
+        "power.out": {
+            "category": "ui",
+            "sounds": ["sounds/power-out"]
+        },
+        "camera.flip": {
+            "category": "ui",
+            "sounds": ["sounds/camera/camera"]
+        },
+        "camera.blip": {
+            "category": "ui",
+            "sounds": ["sounds/camera/camera_blip"]
+        },
+        "guard.win": {
+            "category": "ui",
+            "sounds": ["sounds/6am"]
+        }
+    }
+}

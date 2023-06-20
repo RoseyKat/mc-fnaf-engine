@@ -1,0 +1,72 @@
+{
+    "format_version": "1.19.50",
+    "minecraft:block": {
+        "description": {
+            "identifier": "fnaf:door_button",
+            "menu_category": {
+                "category": "none"
+            },
+            "properties": {"fnaf:rotation": [2,3,4,5]}
+        },
+        "components": {
+            "minecraft:geometry": {"identifier": "geometry.button"},
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "door.button",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:selection_box": {
+                "origin": [-8, 0, -8],
+                "size": [16, 16, 2]
+            },
+            "minecraft:collision_box": false,
+            "minecraft:on_player_placing": {"event": "fnaf:update_rotation"},
+            "minecraft:on_interact": {"event": "fnaf:on_press"}
+        },
+        "permutations": [
+            {
+                "condition": "q.block_property('fnaf:rotation') == 2",
+                "components": {"minecraft:rotation": [0,0,0]}
+            },
+            {
+                "condition": "q.block_property('fnaf:rotation') == 3",
+                "components": {"minecraft:rotation": [0,180,0]}
+            },
+            {
+                "condition": "q.block_property('fnaf:rotation') == 4",
+                "components": {"minecraft:rotation": [0,90,0]}
+            },
+            {
+                "condition": "q.block_property('fnaf:rotation') == 5",
+                "components": {"minecraft:rotation": [0,270,0]}
+            }
+        ],
+        "events": {
+            "fnaf:update_rotation": {"set_block_property": {"fnaf:rotation": "q.cardinal_facing_2d"}},
+            "fnaf:on_press": {
+                "sequence": [
+                    {
+                        "run_command": {"command": "function buttons/door/left"},
+                        "condition": "q.block_property('fnaf:rotation') == 2"
+                    },
+                    {
+                        "run_command": {"command": "function buttons/door/right"},
+                        "condition": "q.block_property('fnaf:rotation') == 3"
+                    },
+                    {
+                        "run_command": {"command": "function buttons/door/top"},
+                        "condition": "q.block_property('fnaf:rotation') == 4"
+                    },
+                    {
+                        "run_command": {"command": "function buttons/door/bottom"},
+                        "condition": "q.block_property('fnaf:rotation') == 5"
+                    },
+                    {
+                        "run_command": {"command": "execute unless score power values matches ..0 run playsound door.shut @a"}
+                    }
+                ]
+            }
+        }
+    }
+}

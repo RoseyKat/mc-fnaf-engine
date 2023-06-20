@@ -1,0 +1,23 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "FNAF Engine",
+        "description": "FNAF Game engine behaviors",
+        "uuid": "ec7efee2-cf38-4bcd-b8a2-134315af8806",
+        "min_engine_version": [ 1, 19, 80 ],
+        "version": [ 1, 0 ,0 ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "ec218285-5348-4abb-b796-5173ea2c3207",
+            "version": [ 1, 0, 0 ]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "bf25cb9c-5fff-46ce-9bf3-8eb747baa019",
+            "version": [ 1, 0, 0 ]
+        }
+    ]
+}

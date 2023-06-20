@@ -1,0 +1,20 @@
+{
+    "num_mip_levels": 0,
+    "padding": 0,
+    "resource_pack_name": "fnaf",
+    "texture_data": {
+        "stonebrick_pattern": {"textures": "textures/blocks/stonebrick_pattern" },
+        "camera": {"textures": "textures/blocks/camera" },
+        "tiled_floor": {"textures": "textures/blocks/tiled_floor" },
+        "door.base": {"textures": "textures/blocks/door/base" },
+        "door.bottom": {"textures": "textures/blocks/door/bottom" },
+        "black": {"textures": "textures/blocks/black" },
+        "ceiling_light": {"textures": "textures/blocks/ceiling_light" },
+        "door.button": {"textures": "textures/blocks/door/door_button" },
+        "light.button": {"textures": "textures/blocks/door/light_button" },
+        "door_pos_top": {"textures": "textures/blocks/door/pos/top" },
+        "door_pos_bottom": {"textures": "textures/blocks/door/pos/bottom" },
+        "door_pos_left": {"textures": "textures/blocks/door/pos/left" },
+        "door_pos_right": {"textures": "textures/blocks/door/pos/right" }
+    }
+}
