@@ -1,18 +1,27 @@
-execute if score loc template_ai matches 4 unless score left_door doors matches 1 run function game/fnaf.template/win/anim
-execute if score loc template_ai matches 7 unless score right_door doors matches 1 run function game/fnaf.template/win/anim
+# Kill guard if the corresponding doors are open and the animatronic is at them
+execute if score loc template_ai matches 4 unless score left_door doors matches 1 run function game/fnaf_template/win/anim
+execute if score loc template_ai matches 7 unless score right_door doors matches 1 run function game/fnaf_template/win/anim
 
+# Store where the animatronic just was.
+# This is needed as the animatronics location changed it's location from where it's current location is.
 scoreboard players operation loc_was template_ai = loc template_ai
 
 ######################
 # MOVE FROM 1 TO 2/5 #
 ######################
 
+# Create a random move from value to decide which direction to go
 execute if score loc template_ai matches 1 run scoreboard players random move_from1 template_ai 1 2
 
+# If location is 1, and move_from is 1, and the animatronic hasn't move from a command above, then move to location 2
 execute if score loc template_ai matches 1 unless score moved template_ai matches 1 if score move_from1 template_ai matches 1 run scoreboard players set loc template_ai 2
+# If location is 1, and move_from is 2, and the animatronic hasn't move from a command above, then move to location 2
 execute if score loc template_ai matches 1 unless score moved template_ai matches 1 if score move_from1 template_ai matches 2 run scoreboard players set loc template_ai 5
 
+# Set that the animatronic has already moved in this instance so the next command doesn't move it again
 execute if score loc_was template_ai matches 1 run scoreboard players set moved template_ai 1
+
+# The rest works the same.
 
 ####################################################################################################################################
 
@@ -97,4 +106,7 @@ execute if score loc_was template_ai matches 7 run scoreboard players set moved 
 
 ####################################################################################################################################
 
+######################################################
+# Do not place any movement commands below this one! #
+######################################################
 scoreboard players set moved template_ai 0

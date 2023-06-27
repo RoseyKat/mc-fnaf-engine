@@ -6,6 +6,8 @@ scoreboard objectives add values dummy "Game Values"
 # Times a number by 20 to get tick value.
 # Example: 5(seconds) x 20(ticks) = 100 (seconds x 20)
 
+# Set in-game time based off how much ticks have passed
+# The game lasts for 7 minutes
 execute if score time console matches ..1200 run scoreboard players set time values 12
 execute if score time console matches 1200..2400 run scoreboard players set time values 1
 execute if score time console matches 2400..3600 run scoreboard players set time values 2

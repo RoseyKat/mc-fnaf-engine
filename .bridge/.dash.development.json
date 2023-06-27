@@ -885,16 +885,6 @@
 	},
 	{
 		"isVirtual": false,
-		"filePath": "BP/functions/game/reset.mcfunction",
-		"aliases": [],
-		"requiredFiles": [
-			"BP/commands/**/*.[jt]s",
-			"BP/commands/*.[jt]s"
-		],
-		"updateFiles": []
-	},
-	{
-		"isVirtual": false,
 		"filePath": "BP/functions/lobby/await.mcfunction",
 		"aliases": [],
 		"requiredFiles": [
@@ -1080,6 +1070,166 @@
 		"filePath": "BP/structures/map.template.mcstructure",
 		"aliases": [],
 		"requiredFiles": [],
+		"updateFiles": []
+	},
+	{
+		"isVirtual": false,
+		"filePath": "BP/functions/game/fnaf_template/loops/tick0.mcfunction",
+		"aliases": [],
+		"requiredFiles": [
+			"BP/commands/**/*.[jt]s",
+			"BP/commands/*.[jt]s"
+		],
+		"updateFiles": []
+	},
+	{
+		"isVirtual": false,
+		"filePath": "BP/functions/game/fnaf_template/init.mcfunction",
+		"aliases": [],
+		"requiredFiles": [
+			"BP/commands/**/*.[jt]s",
+			"BP/commands/*.[jt]s"
+		],
+		"updateFiles": []
+	},
+	{
+		"isVirtual": false,
+		"filePath": "BP/functions/game/fnaf_template/win/guard.mcfunction",
+		"aliases": [],
+		"requiredFiles": [
+			"BP/commands/**/*.[jt]s",
+			"BP/commands/*.[jt]s"
+		],
+		"updateFiles": []
+	},
+	{
+		"isVirtual": false,
+		"filePath": "BP/functions/game/fnaf_template/win/anim.mcfunction",
+		"aliases": [],
+		"requiredFiles": [
+			"BP/commands/**/*.[jt]s",
+			"BP/commands/*.[jt]s"
+		],
+		"updateFiles": []
+	},
+	{
+		"isVirtual": false,
+		"filePath": "BP/functions/game/fnaf_template/loops/tick10.mcfunction",
+		"aliases": [],
+		"requiredFiles": [
+			"BP/commands/**/*.[jt]s",
+			"BP/commands/*.[jt]s"
+		],
+		"updateFiles": []
+	},
+	{
+		"isVirtual": false,
+		"filePath": "BP/functions/game/fnaf_template/loops/tick20.mcfunction",
+		"aliases": [],
+		"requiredFiles": [
+			"BP/commands/**/*.[jt]s",
+			"BP/commands/*.[jt]s"
+		],
+		"updateFiles": []
+	},
+	{
+		"isVirtual": false,
+		"filePath": "BP/functions/game/fnaf_template/loops/tick50.mcfunction",
+		"aliases": [],
+		"requiredFiles": [
+			"BP/commands/**/*.[jt]s",
+			"BP/commands/*.[jt]s"
+		],
+		"updateFiles": []
+	},
+	{
+		"isVirtual": false,
+		"filePath": "BP/functions/game/fnaf_template/loops/tick80.mcfunction",
+		"aliases": [],
+		"requiredFiles": [
+			"BP/commands/**/*.[jt]s",
+			"BP/commands/*.[jt]s"
+		],
+		"updateFiles": []
+	},
+	{
+		"isVirtual": false,
+		"filePath": "BP/functions/game/fnaf_template/loops/tick160.mcfunction",
+		"aliases": [],
+		"requiredFiles": [
+			"BP/commands/**/*.[jt]s",
+			"BP/commands/*.[jt]s"
+		],
+		"updateFiles": []
+	},
+	{
+		"isVirtual": false,
+		"filePath": "BP/functions/game/fnaf_template/loops/values/power.mcfunction",
+		"aliases": [],
+		"requiredFiles": [
+			"BP/commands/**/*.[jt]s",
+			"BP/commands/*.[jt]s"
+		],
+		"updateFiles": []
+	},
+	{
+		"isVirtual": false,
+		"filePath": "BP/functions/game/fnaf_template/loops/values/time.mcfunction",
+		"aliases": [],
+		"requiredFiles": [
+			"BP/commands/**/*.[jt]s",
+			"BP/commands/*.[jt]s"
+		],
+		"updateFiles": []
+	},
+	{
+		"isVirtual": false,
+		"filePath": "BP/functions/game/fnaf_template/loops/values/title.mcfunction",
+		"aliases": [],
+		"requiredFiles": [
+			"BP/commands/**/*.[jt]s",
+			"BP/commands/*.[jt]s"
+		],
+		"updateFiles": []
+	},
+	{
+		"isVirtual": false,
+		"filePath": "BP/functions/game/fnaf_template/loops/door/controller.mcfunction",
+		"aliases": [],
+		"requiredFiles": [
+			"BP/commands/**/*.[jt]s",
+			"BP/commands/*.[jt]s"
+		],
+		"updateFiles": []
+	},
+	{
+		"isVirtual": false,
+		"filePath": "BP/functions/game/fnaf_template/loops/camera/limiter.mcfunction",
+		"aliases": [],
+		"requiredFiles": [
+			"BP/commands/**/*.[jt]s",
+			"BP/commands/*.[jt]s"
+		],
+		"updateFiles": []
+	},
+	{
+		"isVirtual": false,
+		"filePath": "BP/functions/game/fnaf_template/loops/camera/teleport.mcfunction",
+		"aliases": [],
+		"requiredFiles": [
+			"BP/commands/**/*.[jt]s",
+			"BP/commands/*.[jt]s"
+		],
+		"updateFiles": []
+	},
+	{
+		"isVirtual": false,
+		"filePath": "BP/functions/game/fnaf_template/loops/camera/title.mcfunction",
+		"aliases": [],
+		"requiredFiles": [
+			"BP/commands/**/*.[jt]s",
+			"BP/commands/*.[jt]s"
+		],
 		"updateFiles": []
 	}
 ]
