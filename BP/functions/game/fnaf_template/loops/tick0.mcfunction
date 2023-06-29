@@ -27,3 +27,4 @@ function game/fnaf_template/loops/tick160
 
 # Place animatronic teleport functions here:
 function game/AI/template/tp
+function game/AI/test/tp

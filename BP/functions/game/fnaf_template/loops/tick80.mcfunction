@@ -8,6 +8,7 @@ execute if score tick80 console matches 80 if score usage values matches 2 unles
 
 # On every 80th tick do an animatronic movement oppurtunity
 execute if score tick80 console matches 80 run function game/AI/template/oppurtunity
+execute if score tick80 console matches 80 run function game/AI/test/oppurtunity
 
 
 # On every 80th tick set the timer back to 0

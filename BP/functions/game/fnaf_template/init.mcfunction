@@ -46,3 +46,4 @@ replaceitem entity @a[tag=guard] slot.hotbar 0 fnaf:camera_off 1 0 {"item_lock":
 
 # Summon animatronics
 function game/AI/template/summon
+function game/AI/test/summon

@@ -17,3 +17,7 @@ execute if score left_light doors matches 1 run setblock 17 -60 33 light_block [
 
 execute if score right_light doors matches 1 unless score right_door doors matches 1 run fill 17 -60 38 18 -58 38 air
 execute if score right_light doors matches 1 run setblock 17 -60 39 light_block ["block_light_level":5]
+
+
+execute if score bottom_light doors matches 1 run fill 21 -60 37 21 -57 35 air
+execute if score bottom_light doors matches 0 run fill 21 -60 37 21 -57 35 fnaf:black
