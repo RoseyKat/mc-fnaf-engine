@@ -29,16 +29,17 @@ game_name = input("The name of the game folder in 'functions/game/'\nFolder name
 compile_path = int(input("\nCompile in builds directory or directely into BP folder?\n0 = builds\n1 = BP\n>"))
 
 if compile_path == 0:
-    compile_path = "../builds/"
+    compile_path = "../builds/mc-fnaf-engine BP/"
+    shutil.copytree(src="../BP", dst="../builds/mc-fnaf-engine BP", dirs_exist_ok=True)
+    shutil.copytree(src="../RP", dst="../builds/mc-fnaf-engine RP", dirs_exist_ok=True)
+
 elif compile_path == 1:
-    compile_path = "../BP"
+    compile_path = "../BP/"
+    
 else:
     exit()
 
-shutil.copytree(src="../BP", dst="../builds/mc-fnaf-engine BP", dirs_exist_ok=True)
-shutil.copytree(src="../RP", dst="../builds/mc-fnaf-engine RP", dirs_exist_ok=True)
-
-path = f"{compile_path}mc-fnaf-engine BP/functions/game/{game_name}/loops/"
+path = f"{compile_path}functions/game/{game_name}/loops/"
 
 def compile_camera():
     with open(f"{path}camera/teleport.mcfunction", "r") as f:
