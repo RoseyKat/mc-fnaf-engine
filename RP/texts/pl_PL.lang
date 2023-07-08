@@ -1,2 +1,19 @@
 tile.fnaf:stonebrick_pattern.name=Kamienna cegła (Z tapetą)
 tile.fnaf:camera_block.name=Kamera (blok)
+
+tile.fnaf:tiled_floor.name=Wykafelkowana podłoga
+tile.fnaf:black.name=Czarny Blok
+tile.fnaf:lobby_chest.name=Skrzynia lobby
+tile.fnaf:map_origin.name=Pochodzenie mapy
+tile.fnaf:ceiling_light.name=Światło sufitowe
+tile.fnaf:door_button.name=Przełącznik drzwi
+tile.fnaf:light_button.name=Przełącznik światła
+tile.fnaf:door_setter.name=Ustawiacz drzwi
+tile.fnaf:door_base.name=Metalowe drzwi
+tile.fnaf:door_bottom.name=Metalowe drzwi
+
+item.fnaf:start=Rozpocząć Grę
+
+item.fnaf:icon_template=Szablon Animatronik
+item.fnaf:template_up=Zwiększy
+item.fnaf:template_down=Zmniejsze

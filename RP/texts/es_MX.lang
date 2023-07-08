@@ -1,2 +1,19 @@
 tile.fnaf:stonebrick_pattern.name=Ladrillo de piedra (diseño)
 tile.fnaf:camera_block.name=Cámara
+
+tile.fnaf:tiled_floor.name=Suelo de baldosas
+tile.fnaf:black.name=Bloque negro
+tile.fnaf:lobby_chest.name=Cofre del vestíbulo
+tile.fnaf:map_origin.name=Origen del mapa
+tile.fnaf:ceiling_light.name=Lámpara de techo
+tile.fnaf:door_button.name=Botón de puerta
+tile.fnaf:light_button.name=Botón de luz
+tile.fnaf:door_setter.name=Colocador de puertas
+tile.fnaf:door_base.name=Puerta de metal
+tile.fnaf:door_bottom.name=Puerta de metal
+
+item.fnaf:start=Empezar Juego
+
+item.fnaf:icon_template=Plantilla Animatrónica
+item.fnaf:template_up=Aumentar
+item.fnaf:template_down=Disminuir
