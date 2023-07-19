@@ -2,6 +2,8 @@
 execute if score loc template_ai matches 4 unless score left_door doors matches 1 run function win/anim
 execute if score loc template_ai matches 7 unless score right_door doors matches 1 run function win/anim
 
+execute as @a[tag=guard] if score @s camera matches 1.. run camera @a fade time 0 1 0
+
 # Store where the animatronic just was.
 # This is needed as the animatronics location changed it's location from where it's current location is.
 scoreboard players operation loc_was template_ai = loc template_ai
