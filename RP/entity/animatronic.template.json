@@ -7,7 +7,7 @@
 				"default": "entity_alphatest"
 			},
 			"textures": {
-				"default": "textures/entity/template_ai"
+				"default": "textures/entity/template_anim"
 			},
 			"geometry": {
 				"default": "geometry.humanoid"
