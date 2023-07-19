@@ -1,4 +1,4 @@
-// Flips camera on
+// Flips camera off
 {
     "format_version": "1.19.50",
     "minecraft:item": {

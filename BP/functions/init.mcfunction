@@ -45,4 +45,4 @@ fog @a push fnaf:guard_fog guard_fog
 replaceitem entity @a[tag=guard] slot.hotbar 0 fnaf:camera_off 1 0 {"item_lock": { "mode": "lock_in_slot" }}
 
 # Summon animatronics
-function game/AI/template/summon
+function AI/template/summon

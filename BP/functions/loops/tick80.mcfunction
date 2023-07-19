@@ -7,7 +7,7 @@ scoreboard players add tick80 console 1
 execute if score tick80 console matches 80 if score usage values matches 2 unless score power values matches ..0 run scoreboard players remove power values 1
 
 # On every 80th tick do an animatronic movement oppurtunity
-execute if score tick80 console matches 80 run function game/AI/template/oppurtunity
+execute if score tick80 console matches 80 run function AI/template/oppurtunity
 
 
 # On every 80th tick set the timer back to 0

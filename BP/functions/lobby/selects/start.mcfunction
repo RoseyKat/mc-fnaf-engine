@@ -6,7 +6,7 @@ stopsound @a
 music stop
 
 # Run the initiation function
-function game/fnaf_template/init
+function init
 
 # Set that a game is playing
 scoreboard objectives add console dummy Console

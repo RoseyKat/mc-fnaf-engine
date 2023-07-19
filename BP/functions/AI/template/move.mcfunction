@@ -1,6 +1,6 @@
 # Kill guard if the corresponding doors are open and the animatronic is at them
-execute if score loc template_ai matches 4 unless score left_door doors matches 1 run function game/fnaf_template/win/anim
-execute if score loc template_ai matches 7 unless score right_door doors matches 1 run function game/fnaf_template/win/anim
+execute if score loc template_ai matches 4 unless score left_door doors matches 1 run function win/anim
+execute if score loc template_ai matches 7 unless score right_door doors matches 1 run function win/anim
 
 # Store where the animatronic just was.
 # This is needed as the animatronics location changed it's location from where it's current location is.

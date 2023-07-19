@@ -1,6 +1,6 @@
 {
     "values": [
         "lobby/await",
-        "game/loop_controller"
+        "loops/loop_controller"
     ]
 }
