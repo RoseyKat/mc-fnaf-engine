@@ -13,7 +13,8 @@ execute if score time values matches 6 run function win/guard
 function loops/door/controller
 function loops/values/title
 function loops/values/time
-function loops/values/power
+function loops/values/power_gone
+function loops/values/power_drain
 
 # Camera loops
 function camera/loops/pos
@@ -21,11 +22,7 @@ function camera/loops/title
 function camera/loops/limiter
 
 # Other timed loops
-function loops/tick10
-function loops/tick20
-function loops/tick50
 function loops/tick80
-function loops/tick160
 
 # Place animatronic teleport functions here:
 function AI/template/tp
