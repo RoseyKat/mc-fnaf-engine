@@ -47,19 +47,19 @@
             "fnaf:on_press": {
                 "sequence": [
                     {
-                        "run_command": {"command": "function buttons/light/left"},
+                        "run_command": {"command": "execute unless score power values matches ..0 run function buttons/light/left"},
                         "condition": "q.block_property('fnaf:rotation') == 2"
                     },
                     {
-                        "run_command": {"command": "function buttons/light/right"},
+                        "run_command": {"command": "execute unless score power values matches ..0 run function buttons/light/right"},
                         "condition": "q.block_property('fnaf:rotation') == 3"
                     },
                     {
-                        "run_command": {"command": "function buttons/light/top"},
+                        "run_command": {"command": "execute unless score power values matches ..0 run function buttons/light/top"},
                         "condition": "q.block_property('fnaf:rotation') == 4"
                     },
                     {
-                        "run_command": {"command": "function buttons/light/bottom"},
+                        "run_command": {"command": "execute unless score power values matches ..0 run function buttons/light/bottom"},
                         "condition": "q.block_property('fnaf:rotation') == 5"
                     },
                     {

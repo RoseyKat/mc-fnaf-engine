@@ -13,7 +13,7 @@ scoreboard objectives add console dummy Console
 scoreboard players set @a camera_cache 1
 
 # Set values
-scoreboard players set power values 100
+scoreboard players set power values 12120
 scoreboard players set usage values 1
 scoreboard players set time values 12
 scoreboard players set time console 0
