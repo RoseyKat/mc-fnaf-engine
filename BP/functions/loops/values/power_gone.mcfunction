@@ -25,6 +25,6 @@ execute if score power values matches ..0 if score power_sfx_played console matc
 
 # Get rid of camera, this includes the item, and getting the guard off the camera if they are on it as power goes out
 execute if score power values matches ..0 run clear @a
-execute if score power values matches ..0 run scoreboard players set @s camera -1
+execute if score power values matches ..0 run scoreboard players set @a camera -1
 execute if score power values matches ..0 run tag @a remove camera
 execute if score power values matches ..0 run camera @a set minecraft:first_person default
