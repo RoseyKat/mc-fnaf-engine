@@ -1,0 +1,6 @@
+diagnostic.disable.resourcepack.sound.missing=true
+diagnostic.disable.resourcepack.texture.undefined=true
+diagnostic.disable.minecraft.commands.invalid=true
+diagnostic.disable.minecraft.commands.summon.syntax=true
+diagnostic.disable.minecraft.mode.gamemodes.invalid=true
+diagnostic.disable.molang.query.deprecated=true

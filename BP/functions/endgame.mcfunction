@@ -1,5 +1,5 @@
 # Kill everything
-kill @e
+kill @e[type=!player]
 
 # Remove anything player related that they got during the game
 clear @a
